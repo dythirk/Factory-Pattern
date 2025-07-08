@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("How many wheels will your vehicle need?");
+            var vehicleType = Console.ReadLine();
+
+
         }
     }
 }
