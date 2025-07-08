@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace FactoryPattern
 {
-    public class Car
+    public class Car : IVehicle
     {
+        public void Drive()
+        {
+            Console.WriteLine("Building a new Car!");
+        }
     }
 }
